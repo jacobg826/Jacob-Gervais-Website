@@ -1,0 +1,30 @@
+.welcome {
+    display: flex;
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    align-items: center;
+
+}
+
+.my-face {
+    align-self: flex-end;
+    width: 450px;
+    height: 600px;
+    
+}
+
+.text-box {
+    align-self: flex-start;
+    margin-top: 280px;
+    margin-right: 16px;
+    width: fit-content;
+}
+
+.text-style {
+    width: 800px;
+    font-weight: lighter;
+    color: #382C1A;
+    text-align: center;
+    height: fit-content;
+}

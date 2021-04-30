@@ -1,0 +1,35 @@
+.project-layout {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+
+}
+
+.project-grid {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    margin-right: 2rem;
+    margin-bottom: 160px;
+}
+
+.marley-and-me {
+    align-self: flex-end;
+    width: 600px;
+    height: 500px;
+    
+}
+
+.projects-text {
+    width: 800px;
+    font-weight: lighter;
+    color: #382C1A;
+    text-align: center;
+    margin-bottom: 40px;
+    height: fit-content;
+}

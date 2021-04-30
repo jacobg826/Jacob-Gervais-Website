@@ -1,0 +1,24 @@
+.skills-page-layout {
+    justify-content: center;
+    margin-top: 40px;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.skills-text-layout {
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    align-items: center;
+
+}
+
+.skills-text {
+    width: 1000px;
+    font-weight: lighter;
+    color: #382C1A;
+    text-align: left;
+    height: fit-content;
+}
+

@@ -1,0 +1,37 @@
+.footer-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 160px;
+    background-color: #000;
+}
+
+
+.foot-menu {
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    grid-gap: 10px;
+    list-style: none;
+    text-align: center;
+    width: 60vw;
+    justify-content: center;
+    margin-right: 2rem;
+  }
+
+  .foot-item {
+    height: 40px;
+    padding-left: 40px;
+  }
+
+  .styled-foot {
+    font: lighter 24px Roboto;
+    text-decoration: none;
+    color: #fff;
+    padding: 2px 6px 2px 6px;
+
+  }
+
+  .styled-foot:hover {
+    background-color: #000;
+    color: #C0D1BC;
+  }

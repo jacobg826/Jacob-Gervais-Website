@@ -1,0 +1,22 @@
+.page-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 300px;
+    margin-bottom: 22.62%;
+    align-items: center;
+
+}
+
+.button-link {
+    font: lighter 24px Roboto;
+    text-decoration: none;
+    background-color: #84B57E;
+    color: #FFF;
+    width: 200px;
+    border-radius: 10px;
+    padding: 32px 16px 32px 16px;
+}
+
+.button-link:hover {
+    background-color: #636341;
+  }
