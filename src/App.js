@@ -53,7 +53,7 @@ function App() {
       <ThemeProvider theme={theme}>
         <BrowserRouter>
           <NavBar/>
-            <div>
+            <div id = "page-container">
               <Switch>
                 <Route exact path ="/">
                   <Home/>
@@ -72,7 +72,7 @@ function App() {
                 </Route>
               </Switch>
             </div>
-          <Footer/>
+            <Footer/>
         </BrowserRouter>
       </ThemeProvider>
     </div>

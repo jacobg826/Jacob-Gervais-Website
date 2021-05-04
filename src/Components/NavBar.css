@@ -27,6 +27,11 @@
     font-size: 2rem;
     display: flex;
     align-items: center;
+    transition: color 250ms;
+  }
+
+  .navbar-logo:hover {
+    color: #636341;
   }
 
   .nav-menu {
