@@ -10,19 +10,15 @@
 .project-grid {
     display: grid;
     grid-template-columns: repeat(2, auto);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
     grid-gap: 10px;
     list-style: none;
     text-align: center;
-    width: 60vw;
     margin-right: 2rem;
     margin-bottom: 160px;
-}
-
-.marley-and-me {
-    align-self: flex-end;
-    width: 600px;
-    height: 500px;
-    
 }
 
 .projects-text {

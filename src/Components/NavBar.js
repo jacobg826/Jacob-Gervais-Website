@@ -1,10 +1,7 @@
 import React from 'react'
-import {makeStyles} from '@material-ui/core/styles'
-import { Toolbar, Typography} from '@material-ui/core'
 import LandscapeIcon from '@material-ui/icons/Landscape';
 import { Link } from 'react-router-dom';
 import './NavBar.css'
-import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 
 
 function NavBar() {

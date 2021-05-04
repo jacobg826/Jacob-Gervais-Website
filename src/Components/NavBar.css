@@ -50,10 +50,10 @@
     text-decoration: none;
     color: #000;
     padding: 2px 6px 2px 6px;
+    transition: border-bottom 150ms;
 
   }
 
   .styled-link:hover {
-    background-color: #000;
-    color: #fff;
+    border-bottom: 5px solid #636341;
   }

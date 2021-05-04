@@ -1,7 +1,4 @@
 import React from 'react'
-import {Button} from '@material-ui/core'
-import {withStyles} from '@material-ui/core/styles'
-import myFace from './images/my_face.jpg'
 import AndroidIcon from '@material-ui/icons/Android';
 import PowerIcon from '@material-ui/icons/Power';
 import BluetoothIcon from '@material-ui/icons/Bluetooth';
@@ -25,13 +22,29 @@ function Skills () {
                     Here are some of the specific areas I am skilled in:
                 </h1>
             </div>
-            <AndroidIcon style={{ height: '150', width: '150' }}/>
-            <PowerIcon style={{ height: '150', width: '150' }}/>
-            <BluetoothIcon style={{ height: '150', width: '150' }}/>
-            <HttpIcon style={{ height: '150', width: '150' }}/>
+            <div className="skill-grid">
+            <div id="skill-item">
+                <AndroidIcon style={{ height: '150', width: '150' }}/>
+                <h2 className="item-text" > Android Development</h2>
+            </div>
+            <div id ="skill-item">
+                <PowerIcon style={{ height: '150', width: '150' }}/>
+                <h2 className="item-text" > Embedded Systems</h2>
+            </div>
+            <div id ="skill-item">
+                <BluetoothIcon style={{ height: '150', width: '150' }}/>
+                <h2 className="item-text" > Communication Protocols:</h2>
+                <h2 className="item-text" > UART, I2C, SPI, etc.</h2>
+            </div>
+            <div id = "skill-item">
+                <HttpIcon style={{ height: '150', width: '150' }}/>
+                <h2 className="item-text" > Web Development</h2>
+            </div>
+            <div id = "skill-item">
             <PeopleIcon style={{ height: '150', width: '150' }}/>
-            <WorkIcon style={{ height: '150', width: '150' }}/>
-
+            <h2 className="item-text" > Technical Commuication</h2>
+            </div>
+            </div>
         </div>
     )
 }

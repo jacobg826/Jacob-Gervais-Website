@@ -22,3 +22,45 @@
     height: fit-content;
 }
 
+.skill-grid {
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    justify-content: space-evenly;
+    justify-items: center;
+    align-content: space-evenly;
+    align-items: center;
+    grid-gap: 50px;
+    list-style: none;
+    text-align: center;
+    margin-right: 50%;
+}
+
+.icon {
+    height: 150; 
+    width: 150;
+}
+
+.icon:hover {
+    color: blue;
+}
+
+#skill-item {
+    display:grid;
+    width: 200px;
+    height: fit-content;
+    justify-items: center;
+}
+
+#skill-item .item-text {
+    width: 1000px;
+    font-weight: lighter;
+    color: #382C1A;
+    text-align: center;
+    height: fit-content;
+    visibility: hidden;
+    transition: visibility 150ms;
+}
+
+#skill-item:hover .item-text {
+    visibility: visible;
+}
