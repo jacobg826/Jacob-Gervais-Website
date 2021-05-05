@@ -35,13 +35,6 @@ function Skills () {
                     </div>
                     <h2 className="item-text" > Embedded Systems</h2>
                 </div>
-                <div id ="skill-item">
-                    <div className="icon">
-                        <BluetoothIcon style={{ height: '150', width: '150' }}/>
-                        <h2 className="item-text" > Communication Protocols:</h2>
-                        <h2 className="item-text" > UART, I2C, SPI, etc.</h2>
-                    </div>
-                </div>
                 <div id = "skill-item">
                     <div className="icon">
                         <HttpIcon style={{ height: '150', width: '150' }}/>

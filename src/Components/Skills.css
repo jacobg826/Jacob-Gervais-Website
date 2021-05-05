@@ -24,6 +24,7 @@
 
 .skill-grid {
     display: grid;
+    grid-template-columns: repeat(2, auto);
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
@@ -35,18 +36,19 @@
 
 #skill-item {
     display:grid; 
-    width: 100vw;
+    width: 300px;
+    margin-bottom: 40px;
     height: fit-content;
     justify-items: center;
 }
 
 #skill-item .item-text {
-    width: 1000px;
+    width: 300px;
     font-weight: lighter;
     color: #382C1A;
     text-align: center;
     height: fit-content;
-    visibility: hidden;
+    visibility: visible;
     transition: visibility 150ms;
 }
 
