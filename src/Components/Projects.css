@@ -29,3 +29,49 @@
     margin-bottom: 40px;
     height: fit-content;
 }
+
+.flip-front {
+    width: 400px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #999;
+    background: #84B57E;
+    transition: background 250ms;
+}
+
+.flip-front:hover {
+    background: #636341;
+}
+
+.flip-back {
+    width: 400px;
+    height: 250px;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px 3px #999;
+    background: #f2f3f4;
+    transition: background 250ms;
+}
+
+.flip-back:hover {
+    background: #d3d3d3;
+}
+
+.flip-text {
+    width: 400px;
+    font-weight: lighter;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 40px;
+    height: fit-content;
+}
+
+.flip-back-text {
+    margin-left: 10px;
+    width: 350px;
+    font-weight: lighter;
+    color: #382C1A;
+    text-align: left;
+    height: fit-content;
+}

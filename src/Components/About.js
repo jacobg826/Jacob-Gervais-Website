@@ -8,7 +8,7 @@ function About () {
         <div className="page-layout">
             <div>
                 <h1 className='about-text'>
-                    I am a recent graduate from the University of washington with
+                    I am a recent graduate from the University of Washington with
                     a degree in Electrical and Computer Engineering
                 </h1>
             

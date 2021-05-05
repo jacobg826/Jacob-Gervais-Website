@@ -24,29 +24,18 @@
 
 .skill-grid {
     display: grid;
-    grid-template-columns: repeat(1, auto);
     justify-content: space-evenly;
     justify-items: center;
     align-content: space-evenly;
     align-items: center;
-    grid-gap: 50px;
     list-style: none;
     text-align: center;
-    margin-right: 44%;
-}
-
-.icon {
-    height: 150; 
-    width: 150;
-}
-
-.icon:hover {
-    color: blue;
+    
 }
 
 #skill-item {
-    display:grid;
-    width: 200px;
+    display:flex;
+    width: 100vw;
     height: fit-content;
     justify-items: center;
 }
