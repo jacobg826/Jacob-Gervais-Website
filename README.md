@@ -1,6 +1,8 @@
-# Getting Started with Create React App
+# Jacob Gervais Portfolio Website
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This is a website to showcase my skills and projects that I have worked on.
+Additionally it serves as a projects to allow me to learn and play with
+ReactJS. 
 
 ## Available Scripts
 
