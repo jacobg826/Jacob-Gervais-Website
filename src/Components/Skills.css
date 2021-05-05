@@ -34,7 +34,7 @@
 }
 
 #skill-item {
-    display:flex;
+    display:grid; 
     width: 100vw;
     height: fit-content;
     justify-items: center;
@@ -52,4 +52,13 @@
 
 #skill-item:hover .item-text {
     visibility: visible;
+}
+
+.icon {
+    color: #000;
+    transition: color 150ms; 
+}
+
+.icon:hover {
+    color: #84B57E
 }

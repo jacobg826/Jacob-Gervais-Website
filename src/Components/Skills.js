@@ -22,27 +22,37 @@ function Skills () {
                     Here are some of the specific areas I am skilled in:
                 </h1>
             </div>
-            <div>
+            <div className ="skill-grid">
                 <div id="skill-item">
-                    <AndroidIcon style={{ height: '150', width: '150' }}/>
+                    <div className="icon">
+                        <AndroidIcon style={{ height: '150', width: '150' }}/>
+                    </div>
                     <h2 className="item-text" > Android Development</h2>
                 </div>
                 <div id ="skill-item">
-                    <PowerIcon style={{ height: '150', width: '150' }}/>
+                   <div className="icon">
+                        <PowerIcon style={{ height: '150', width: '150' }}/>
+                    </div>
                     <h2 className="item-text" > Embedded Systems</h2>
                 </div>
                 <div id ="skill-item">
-                    <BluetoothIcon style={{ height: '150', width: '150' }}/>
-                    <h2 className="item-text" > Communication Protocols:</h2>
-                    <h2 className="item-text" > UART, I2C, SPI, etc.</h2>
+                    <div className="icon">
+                        <BluetoothIcon style={{ height: '150', width: '150' }}/>
+                        <h2 className="item-text" > Communication Protocols:</h2>
+                        <h2 className="item-text" > UART, I2C, SPI, etc.</h2>
+                    </div>
                 </div>
                 <div id = "skill-item">
-                    <HttpIcon style={{ height: '150', width: '150' }}/>
+                    <div className="icon">
+                        <HttpIcon style={{ height: '150', width: '150' }}/>
+                    </div>
                     <h2 className="item-text" > Web Development</h2>
                 </div>
                 <div id = "skill-item">
-                <PeopleIcon style={{ height: '150', width: '150' }}/>
-                <h2 className="item-text" > Technical Commuication</h2>
+                    <div className="icon">
+                    <PeopleIcon style={{ height: '150', width: '150' }}/>
+                    </div>
+                    <h2 className="item-text" > Technical Commuication</h2>
                 </div>
             </div>
         </div>

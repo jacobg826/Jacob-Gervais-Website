@@ -2,25 +2,28 @@
     display: flex;
     justify-content: center;
     margin-top: 80px;
-    margin-bottom: 160px;
+    margin-bottom: 80px;
     align-items: center;
 
 }
 
 .marley-and-me {
-    align-self: flex-end;
+    align-self: center;
     margin-left: 40px;
-    margin-bottom: 60px;
-    width: 500px;
-    height: 400px;
+    width: 40%;
+    max-width: 650px;
+    height: fit-content;
     
 }
 
 .about-text {
-    width: 600px;
+    width: 90%;
+    max-width: 600px;
     font-weight: lighter;
     color: #382C1A;
     text-align: left;
+    margin-left: 10px;
+    padding-left: 10px;
     margin-bottom: 40px;
     height: fit-content;
 }

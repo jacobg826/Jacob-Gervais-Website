@@ -13,7 +13,7 @@ function About () {
                 </h1>
             
                 <h1 className='about-text'>
-                    I am seeking out a career at a company that fosters learning and growth 
+                    I am seeking a career at a company that fosters learning and growth 
                     so I can continue to improve my skills as an engineer. I hope to work on 
                     interesting projects with motivated and skilled peers
                 </h1>

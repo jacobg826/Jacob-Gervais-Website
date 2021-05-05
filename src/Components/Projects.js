@@ -1,8 +1,4 @@
 import React, { useState } from 'react'
-import {Button, StepConnector} from '@material-ui/core'
-import {withStyles} from '@material-ui/core/styles'
-import myFace from './images/my_face.jpg'
-import CustomBtn from './CustomBtn'
 import ReactCardFlip from 'react-card-flip';
 import './Projects.css'
 
