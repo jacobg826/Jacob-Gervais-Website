@@ -32,7 +32,7 @@
 
 .flip-front {
     width: 400px;
-    height: 250px;
+    height: 400px;
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 2px 2px 3px #999;
@@ -46,7 +46,7 @@
 
 .flip-back {
     width: 400px;
-    height: 250px;
+    height: 400px;
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 2px 2px 3px #999;

@@ -9,18 +9,17 @@ function About () {
             <div>
                 <h1 className='about-text'>
                     I am a recent graduate from the University of Washington with
-                    a degree in Electrical and Computer Engineering
+                    a degree in Electrical and Computer Engineering.
                 </h1>
             
                 <h1 className='about-text'>
-                    I am seeking a career at a company that fosters learning and growth 
-                    so I can continue to improve my skills as an engineer. I hope to work on 
-                    interesting projects with motivated and skilled peers
+                    I am skilled in Android mobile app development from my professional experience at Faithlife.
+                    I am proficient as an embedded system engineer due to coursework and projects I have pursued.  
                 </h1>
 
                 <h1 className='about-text'>
-                    When I'm not working on code you can find me somewhere in the woods of the Pacific
-                    Northwest. I love mountain biking, hiking, trail running, and rock climbing.
+                    I am seeking employment at a company where I can continue to learn
+                    and grow my skills as an engineer. 
                 </h1>
             </div>
             <img src={MarleyAndMe} className ="marley-and-me" />
