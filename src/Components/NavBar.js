@@ -20,9 +20,6 @@ function NavBar() {
                         <Link to ="/projects" className='styled-link'>Projects</Link>
                     </li>
                     <li className='nav-item'>
-                        <Link to = "skills" className='styled-link'>Skills</Link>
-                    </li>
-                    <li className='nav-item'>
                         <Link to= "/contact" className='styled-link'>Contact Me</Link>
                     </li>
                 </ul>

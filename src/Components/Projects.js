@@ -1,5 +1,6 @@
 import React, { useState } from 'react'
 import ReactCardFlip from 'react-card-flip';
+import ShopIcon from '@material-ui/icons/Shop';
 import './Projects.css'
 
 
@@ -15,6 +16,12 @@ function Projects () {
 
         const [portClick, setPort] = useState(false);
         const handlePort = () => setPort(!portClick); 
+
+        const [earthClick, setEarth] = useState(false);
+        const handleEarth = () => setEarth(!earthClick); 
+
+        const [veriClick, setVeri] = useState(false);
+        const handleVeri = () => setVeri(!veriClick); 
 
         return (
             <div>
@@ -46,7 +53,11 @@ function Projects () {
                         Delivered impactful features to the mobile app such as automated message suggestions by utilizing 
                         on device ML, and a directory feature to search and contact members of your church. 
                         </h4>
-
+                        <a 
+                        href="https://play.google.com/store/apps/details?id=com.faithlife.mobile&hl=en_US&gl=US"
+                        target="_blank">
+                            <ShopIcon/>
+                        </a>
                     </div>
                 </ReactCardFlip>
 
@@ -71,6 +82,43 @@ function Projects () {
                             Completed a prototype design of the belay system on schedule by implementing Python and C
                             code and utilizing embedded system technologies such as UART, I2C, SPI, and ADCs.
                         </h4>
+                        <a href="https://youtu.be/drQGYvJ-_U8" target="_blank">watch the demo</a>
+                    </div>
+                </ReactCardFlip>
+
+                <ReactCardFlip isFlipped={portClick} flipDirection="vertical">
+                    <div className="flip-front" onClick={handlePort}>
+                        <h1 className = "flip-text"> Personal Portfolio</h1>
+                        <h3 className = "flip-text">Software Engineer</h3>
+                    </div>
+
+                    <div className="flip-back" onClick={handlePort}>
+                        <h2 className="flip-back-text"> Software Engineer</h2>
+                        <h3 className="flip-back-text"> 
+                            Designed and implemented this website to create a platform to display
+                            my work experience as an engineer.  
+                        </h3>
+                        <h3 className="flip-back-text"> 
+                            Utilized ReactJS, HTML, and CSS to create a clean and professional looking website.  
+                        </h3>
+                    </div>
+                </ReactCardFlip>
+
+                <ReactCardFlip isFlipped={earthClick} flipDirection="vertical">
+                    <div className="flip-front" onClick={handleEarth}>
+                        <h1 className = "flip-text">Earth News</h1>
+                        <h3 className = "flip-text">Software Engineer</h3>
+                    </div>
+
+                    <div className="flip-back" onClick={handleEarth}>
+                        <h2 className="flip-back-text"> Software Engineer</h2>
+                        <h3 className="flip-back-text"> 
+                            Implemented a news aggregator website to create a site to view and share news.
+                        </h3>
+                        <h3 className="flip-back-text"> 
+                            Authored code in ReactJS, HTML, and CSS to create a clean and professional looking news site.  
+                        </h3>
+                        <a href="https://earthnews.netlify.app" target="_blank">Check it out here</a>
                     </div>
                 </ReactCardFlip>
 
@@ -91,22 +139,23 @@ function Projects () {
                         </h3>
                     </div>
                 </ReactCardFlip>
-
-                <ReactCardFlip isFlipped={portClick} flipDirection="vertical">
-                    <div className="flip-front" onClick={handlePort}>
-                        <h1 className = "flip-text"> Personal Portfolio</h1>
-                        <h3 className = "flip-text">Software Engineer</h3>
+                
+                <ReactCardFlip isFlipped={veriClick} flipDirection="vertical">
+                    <div className="flip-front" onClick={handleVeri}>
+                        <h1 className = "flip-text">Pipelined Processor</h1>
+                        <h3 className = "flip-text">Computer Architect</h3>
                     </div>
 
-                    <div className="flip-back" onClick={handlePort}>
-                        <h2 className="flip-back-text"> Software Engineer</h2>
+                    <div className="flip-back" onClick={handleVeri}>
+                        <h2 className="flip-back-text">Computer Architect</h2>
                         <h3 className="flip-back-text"> 
-                            Designed and implemented this website to create a platform to display
-                            my work experience as an engineer.  
+                            Built a pipelined processor up from the logic gate level using SystemVerilog
                         </h3>
                         <h3 className="flip-back-text"> 
-                            Utilized ReactJS, HTML, and CSS to create a clean and professional looking website.  
+                            Tested the processor by running sorting algorithms on the processor and analyzing the 
+                            results in ModelSim. 
                         </h3>
+                       
                     </div>
                 </ReactCardFlip>
                 </div>

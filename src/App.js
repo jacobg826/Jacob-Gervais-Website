@@ -64,9 +64,6 @@ function App() {
                 <Route path = "/projects">
                   <Projects/>
                 </Route>
-                <Route path = "/skills">
-                  <Skills/>
-                </Route>
                 <Route path = "/contact">
                   <Contact/>
                 </Route>
