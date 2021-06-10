@@ -40,6 +40,7 @@
 
     .marley-and-me {
         width: 90vw;
-        height: 60vw;;
+        height: 60vw;
+        margin-left: 2vw;
     }
 }

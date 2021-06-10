@@ -16,6 +16,7 @@
 
 .skills-text {
     width: 1000px;
+    max-width: 90vw;
     font-weight: lighter;
     color: #382C1A;
     text-align: left;
