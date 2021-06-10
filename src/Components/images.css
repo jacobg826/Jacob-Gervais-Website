@@ -21,10 +21,34 @@
     width: fit-content;
 }
 
-.text-style {
+.text-styl {
     width: 800px;
+    max-width: 90vw;
     font-weight: lighter;
     color: #382C1A;
     text-align: center;
     height: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+    .welcome {
+      display: grid;
+    }
+
+    .my-face {
+        width: 90vw;
+        height: 110vw;
+        margin:5vw;
+    }
+
+    .text-box {
+        margin-top: 30px;
+        width: 90vw;
+        
+    }
+
+    .text-styl {
+        margin: 5vw;
+    }
+
 }

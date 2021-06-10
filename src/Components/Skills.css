@@ -64,3 +64,9 @@
 .icon:hover {
     color: #84B57E
 }
+
+@media only screen and (max-width: 600px) {
+    .skill-grid {
+        grid-template-columns: repeat(1, auto);
+    }
+}

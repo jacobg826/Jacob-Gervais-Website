@@ -62,3 +62,11 @@
   .styled-link:hover {
     border-bottom: 5px solid #636341;
   }
+
+
+  @media only screen and (max-width: 600px) {
+    .styled-link {
+      font: lighter 12px Roboto;
+    }
+
+  }

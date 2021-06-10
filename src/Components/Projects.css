@@ -23,6 +23,7 @@
 
 .projects-text {
     width: 800px;
+    max-width: 90vw;
     font-weight: lighter;
     color: #382C1A;
     text-align: center;
@@ -74,4 +75,12 @@
     color: #382C1A;
     text-align: left;
     height: fit-content;
+}
+
+@media only screen and (max-width: 600px) {
+    .project-grid {
+        display: grid;
+        grid-template-columns: repeat(1, auto);
+    }
+
 }

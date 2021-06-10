@@ -26,3 +26,20 @@
     margin-bottom: 40px;
     height: fit-content;
 }
+
+@media only screen and (max-width: 600px) {
+
+    .page-layout {
+        display: grid;
+
+    }
+
+    .about-text {
+        max-width: 90vw;
+    }
+
+    .marley-and-me {
+        width: 90vw;
+        height: 60vw;;
+    }
+}
